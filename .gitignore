@@ -1,3 +1,8 @@
+# ignore all to ignore binaries
 *
-
+# keep track of text files and Makefile
 !*.*
+!Makefile
+
+# ignore object files
+*.o
