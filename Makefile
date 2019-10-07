@@ -7,5 +7,10 @@ main.o: main.c function.h
 function.o: function.c function.h
 	gcc -c function.c
 
+clean:
+	rm *.o
+	rm strtest
 
+run:
+	./strtest
 
